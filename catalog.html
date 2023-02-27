@@ -6,14 +6,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" href="/assets/css/catalog.css"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <script src="assets/js/jquery-3.6.3.min.js"></script>
     </head> 
     <body> 
-        <div class="wrapper">
-
-          </div>
-        <header>
-            <nav>
-                <div class="logo">OLLE</div>
+          <header>
+            <div class="logo">OLLE</div>
+            <div class="header-burger">
+                <span></span>
+            </div>
+            <div class="header-menu">
+              
                 <ul class="navbar">
                     <li>
                         <a href="/index.html">Главная</a> 
@@ -36,8 +38,40 @@
                     <button class="call">Заказать обратный звонок</button>
                     <img src="/assets/img/basket.png" alt="basket" class="basket">
                 </ul>
-            </nav>
+            </div>
         </header>
+        <div class="popup_box">
+            <div class="popup_content">
+                <div class="popup_text">
+                    <div class="clouse">X</div>
+                <div class="images">
+                    <img src="/assets/img/bankaOne.png" alt="bankaOne" class="banka_map">
+                </div>
+                <div class="content">
+                <h3 class="title_map">Средство для чистки кофемашин в порошке Ollee</h3>
+                <div class="redString_map">
+                    <div class="redblock_map"></div>
+                        <div class="text_map">Очистика профессианальной кофемашины от ммаасел и<br> жиров </div>
+                </div>
+                <div class="redString_map">
+                    <div class="redblock_map"></div>
+                        <div class="text_map">Очистика профессианальной кофемашины от ммаасел и<br> жиров </div>
+                </div>
+                <div class="redString_map">
+                    <div class="redblock_map"></div>
+                        <div class="text_map">Очистика профессианальной кофемашины от ммаасел и<br> жиров </div>
+                </div>
+                <div class="redString_map">
+                    <div class="redblock_map"></div>
+                        <div class="text_map">Очистика профессианальной кофемашины от ммаасел и<br> жиров </div>
+                </div>
+                <p class="description">
+                    Olle - профессиональное чистящее средство для удаления<br>кофейных масел с элементов блока подачи (носик крана, фильтр, чаша крепления фильтра) и выпускного клапана эспрессо кофе-машин. Деодорирует, очищает и способствует<br>эффективной подаче, быстро и полностью удаляя любые органические остатки, не повреждая хромированные части металлической поверхности машины. Olle имеет сертификат NSF  подтверждающий его совместимость с металлами и безопасность.
+                </p>
+            </div>
+            </div>
+            </div>
+        </div>
         <div class="fixedContainer">
             <h1>
                 Каталог продукции <span>
@@ -55,19 +89,19 @@
                     <div class="image">
                       <span>
                           <picture>
-                              <img src="/assets/img/bankaOne.png" alt="">
+                              <img src="/assets/img/bankaOne.png" alt="" class="click">
                           </picture>
                           <p class="iconText">Средство такое то</p>
                           </span>
                           <span>
                             <picture>
-                                <img src="/assets/img/bankaOne.png" alt="">
+                                <img src="/assets/img/bankaOne.png" alt="" class="click">
                             </picture>
                             <p class="iconText">Средство такое то</p>
                             </span>
                             <span>
                                 <picture>
-                                    <img src="/assets/img/bankaOne.png" alt="">
+                                    <img src="/assets/img/bankaOne.png" alt="" class="click">
                                 </picture>
                                 <p class="iconText">Средство такое то</p>
                                 </span>
@@ -78,13 +112,13 @@
                         <div class="image">
                           <span>
                               <picture>
-                                  <img src="/assets/img/bankaOne.png" alt="">
+                                  <img src="/assets/img/bankaOne.png" alt="" class="click">
                               </picture>
                               <p class="iconText">Средство такое то</p>
                               </span>
                               <span>
                                 <picture>
-                                    <img src="/assets/img/bankaOne.png" alt="">
+                                    <img src="/assets/img/bankaOne.png" alt="" class="click">
                                 </picture>
                                 <p class="iconText">Средство такое то</p>
                                 </span>
@@ -95,6 +129,7 @@
             </div>
         </div>
         </div>
+
      <footer>
         <nav>
             <div class="logoFooter">OLLE</div>
@@ -119,4 +154,5 @@
         </nav>
      </footer>
     </body> 
+    <script src="/assets/js/catalog.js"></script>
 </html>

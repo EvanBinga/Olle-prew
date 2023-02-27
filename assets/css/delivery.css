@@ -28,16 +28,6 @@
 		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1200px;
-    background-color: rgba(165, 42, 42, 0.623);
-    height: 3px;
-  }
-
-
-
-
 body{
     margin: 0 auto;
 
