@@ -320,6 +320,12 @@ h3{
     width: 1200px;
     margin: 0 auto;
 }
+
+.sliderItem:hover{
+    box-shadow: 1px 2px 0px 0px #6060603d;
+    cursor: pointer;
+    transition: 0.3s;
+}
 .sliderItem {
     margin-left: 80px;
     margin-top: 100px;
@@ -346,6 +352,11 @@ background-color: #9B9B9B;
 color: #992928;
 transition: 0.3s;
 }
+
+
+/* landing_catalog_popup */
+
+/* ----- */
 
 .partners{
     margin-top: 200px;
