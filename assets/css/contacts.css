@@ -36,10 +36,14 @@
         margin: 0 auto;
     }
     .logo{font-family: 'SF UI Text Bold Italic';}
+    .contactsTitle {
+       font-family: 'SF UI Display Bold';
+    }
+
 
 
      /*Стилизация шрифтов конец*/
-
+    
 
      header{
         width: 100%;
@@ -125,15 +129,17 @@
 }
 
 .contactsTitle {
-    font-family: 'SF UI Display Bolt';
     color: #992928;
     font-size: 72px;
     margin-top: 100px;
+    margin-left: 31px;
+    
 }
 
 .contactsBox {
     display: flex;
     margin-top: 100px;
+    margin-left: 34px;
 }
 
 .textColor{
@@ -150,12 +156,40 @@
 .tg{
     width: 40px;
     margin-bottom: 50px;
+    margin-left: 34px;
+}
+.map_two {
+    width: 1200px;
+    height: 644px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .form{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 34px;
 }
 
 input{
@@ -169,11 +203,15 @@ input{
 
 
 .buttonForm{
-    padding: 13px 130px;
+    width: 290px;
+    height: 40px;
     background-color: #992928;
-    position: relative;
-    top: 200px;
-    right: 523px;
+    margin-top: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 34px;
 }
 
 .buttonForm:hover{
@@ -182,15 +220,12 @@ input{
     transform: 0.3s;
 }
 
-#massagePlaceholder{
-    width: 505px;
-    padding-bottom: 90px;
+.contactbox{ 
+    display: flex;
 }
 
 .holder{
-    position: relative;
-    left: 800px;
-    bottom: 340px;
+    margin-left: 213px;
 }
 
 .inputCall {
@@ -211,40 +246,80 @@ input{
 
 
 
-.form {
 
-}
 .namePlaceholder {
     width: 505px;
-    height: 30px;
-    color: #525252;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
 
 }
 .numberPlaceholder {
-    margin-top: 40px;
-    display: block;
+    margin-top: 15px;
     width: 505px;
-    height: 30px;
-    color: #525252;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    display: block;
+    box-sizing: border-box;
 }
+
+
+
+
+
 .mailPlaceholder {
-    margin-top: 40px;
-    display: block;
+    margin-top: 15px;
     width: 505px;
-    height: 30px;
-    color: #525252;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    display: block;
+    box-sizing: border-box;
    
 }
 .massagePlaceholder {
-    margin-top: 40px;
-    display: block;
     width: 505px;
-    height: 30px;
-    color: #525252;
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    resize: none;
+    display: block;
+    box-sizing: border-box;
+
 }
-.buttonForm {
-    background-color: #922727;
+.title_contact_us {
+    color: #922727;
+    font-size: 72px;
+    font-family: 'SF UI Display Bold';
+    margin-top: 60px;
+    margin-left: 34px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
@@ -261,15 +336,12 @@ footer{
     position: relative;
     top: 50%;
 }
-.logo_foot {
-    
-}
+
 .logoFooter{
     font-size: 48px;
     color: #992928;
     position: relative;
     top: 70px;
-    font-family: 'SF UI Text Bold Italic';
 }
 
 .tgFooter{
@@ -288,5 +360,99 @@ footer{
        margin-left: 5px;
        color: #922727;
 }
+
+
+.nav_btn {
+    display: none;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+
+
+@media (max-width: 1000px) {
+    .logo {
+        margin-left: 14px;
+        font-size: 30px;
+    }
+    nav, header {
+        background-color: white;
+    }
+    li, .call, .basket {
+        display: none;
+    }
+    .nav_btn {
+        display: block;
+    }
+    .contactsBox {
+        flex-direction: column;
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    .contactsTitle,.contactsBox {
+        margin-left: 13px;
+
+    }
+    .contactsTitle {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .contactText {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .contactText_ {
+        margin-bottom: 0;
+    }
+    .tg {
+        margin-left: 17px;
+        margin-top: 20px;
+        margin-bottom: 23px;
+        width: 21px;
+    }
+    .map_two {
+        width: 320px;
+        height: 296px; 
+    }
+    .namePlaceholder, .numberPlaceholder, .mailPlaceholder {
+        width: 290px;
+        height: 40px;
+    }
+    .massagePlaceholder {
+        width: 290px;
+        height: 80px;
+    }
+    .form {
+        margin-left: 15px;
+    }
+    
+    .holder {
+        display: none;
+    }
+    .body { 
+        width: 320px;
+        overflow: hidden;
+    }
+    .contactsContainer {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .title_contact_us {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    .buttonForm {
+        margin-left: 0px;
+    }
+
+    .block_btn {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
 
 
