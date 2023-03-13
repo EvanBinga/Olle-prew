@@ -203,6 +203,53 @@ a:hover{
     color: #992928;
   }
 
+
+/*slider new*/
+.section_slider {
+    display: flex;
+    width: 1200px;
+    height: 500px;
+
+}
+
+.sec_slider1, .sec_slider2 {
+    width: 594px;
+    border: solid;
+}
+.sec_slider1_text {
+    margin-left: 28px;
+    font-size: 72px;
+    color: #992928;
+    font-family: 'SF UI Display Bold';
+}
+.zaza {
+    border: solid;
+    width: 305px;
+    height: 273px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slider new*/
+
+
 /* ------- */
 
 footer{

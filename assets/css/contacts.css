@@ -395,6 +395,12 @@ footer{
 
 */
 
+.nav_btn {
+    display: none;
+}
+
+
+
 footer {
     
     height: 200px;
